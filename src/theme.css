@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(32, 63, 90);
+}
+.container{
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: auto;
+    width: 80%;
+    padding: 1%;
+}
+h2{
+    margin: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: fit-content;
+    font-size: 20pt;
+}
+.header{
+    font-size: 16pt;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 2%;
+    width: fit-content;
+}
+.navigationInterface{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.navigationBar{
+    display: flex;
+    flex-direction: row;
+}
+.navigationItem{
+    width: auto;
+    margin: auto;
+    border-radius: 50%;
+    width: 18.4px;
+    padding: 1%;
+    font-size: 14pt;
+    text-align: center;
+}
+.selected{
+    background-color: rgb(40, 204, 57);
+    color: aliceblue;
+}
+.accepted{
+    background-color: rgb(40, 204, 57);
+}
+.content{
+    margin-bottom: 0%;
+    font-size: 16pt;
+}
+.navigationButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 1%
+}
+.button{
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    width: 10%;
+    height: 2em;
+    font-size: 14pt;
+}
